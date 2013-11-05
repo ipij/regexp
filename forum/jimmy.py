@@ -3,18 +3,14 @@
 import re
 import sys
 
-HEADER = '\033[95m'
-NORMAL = '\033[0m'
-
-
 def print_attr(key, value):
-    print('%s%s: %s%s' % (HEADER, key, NORMAL, value))
+    print('\033[95m%s: \033[0m%s' % (key, value))
 
 re_type = r"""
 (?:
     (\w+\s+)*  #  additional attributes to type
     \w+  # name of type
-    (\s+|\s*[*&]+\s*)
+    (\s+|\s*[*&]+\s*)  # stars... reference
 )
 """
 
