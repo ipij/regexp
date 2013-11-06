@@ -45,14 +45,14 @@ with open(sys.argv[1]) as f:
 
 lines = {
     #line char position: line_number
-    m.start(): line_number + 1
-    for line_number, m in enumerate(re.finditer(r"\n", buff))
+    m.start(): line_number
+    for line_number, m in enumerate(re.finditer(r"\n", buff), start=1)
 }
 
 print("functions:")
 for m in re_funcs.finditer(buff):
     #find line
-    line = lines[buff.rfind("\n", 0, m.end() + 1)]
+    line = lines[buff.find("\n", m.start("function"))]
 
     print_attr(line, m.group("function"))
     print_attr("name", m.group("name"))
