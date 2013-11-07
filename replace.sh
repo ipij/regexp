@@ -1,140 +1,139 @@
 #!/bin/bash
 
-tone1.play(660,100);
-delay(75);tone1.play(660,100);
-delay(150);tone1.play(660,100);
-delay(150);tone1.play(510,100);
-delay(50);tone1.play(660,100);
-delay(150);tone1.play(770,100);
-delay(275);tone1.play(380,100);
-delay(287);tone1.play(510,100);
-delay(225);tone1.play(380,100);
-delay(200);tone1.play(320,100);
-delay(250);tone1.play(440,100);
-delay(150);tone1.play(480,80);
-delay(165);tone1.play(450,100);
-delay(75);tone1.play(430,100);
-delay(150);tone1.play(380,100);
-delay(100);tone1.play(660,80);
-delay(100);tone1.play(760,50);
-delay(75);tone1.play(860,100);
-delay(150);tone1.play(700,80);
-delay(75);tone1.play(760,50);
-delay(175);tone1.play(660,80);
-delay(150);tone1.play(520,80);
-delay(75);tone1.play(580,80);
-delay(75);tone1.play(480,80);
-delay(175);tone1.play(510,100);
-delay(275);tone1.play(380,100);
-delay(200);tone1.play(320,100);
-delay(250);tone1.play(440,100);
-delay(150);tone1.play(480,80);
-delay(165);tone1.play(450,100);
-delay(75);tone1.play(430,100);
-delay(150);tone1.play(380,100);
-delay(100);tone1.play(660,80);
-delay(100);tone1.play(760,50);
-delay(75);tone1.play(860,100);
-delay(150);tone1.play(700,80);
-delay(75);tone1.play(760,50);
-delay(175);tone1.play(660,80);
-delay(150);tone1.play(520,80);
-delay(75);tone1.play(580,80);
-delay(75);tone1.play(480,80);
-delay(250);tone1.play(500,100);
-delay(150);tone1.play(760,100);
-delay(50);tone1.play(720,100);
-delay(75);tone1.play(680,100);
-delay(75);tone1.play(620,150);
-delay(150);tone1.play(650,150);
-delay(150);tone1.play(380,100);
-delay(75);tone1.play(430,100);
-delay(75);tone1.play(500,100);
-delay(150);tone1.play(430,100);
-delay(75);tone1.play(500,100);
-delay(50);tone1.play(570,100);
-delay(110);tone1.play(500,100);
-delay(150);tone1.play(760,100);
-delay(50);tone1.play(720,100);
-delay(75);tone1.play(680,100);
-delay(75);tone1.play(620,150);
-delay(150);tone1.play(650,200);
-delay(150);tone1.play(1020,80);
-delay(150);tone1.play(1020,80);
-delay(75);tone1.play(1020,80);
-delay(150);tone1.play(380,100);
-delay(150);tone1.play(500,100);
-delay(150);tone1.play(760,100);
-delay(50);tone1.play(720,100);
-delay(75);tone1.play(680,100);
-delay(75);tone1.play(620,150);
-delay(150);tone1.play(650,150);
-delay(150);tone1.play(380,100);
-delay(75);tone1.play(430,100);
-delay(75);tone1.play(500,100);
-delay(150);tone1.play(430,100);
-delay(75);tone1.play(500,100);
-delay(50);tone1.play(570,100);
-delay(110);tone1.play(500,100);
-delay(150);tone1.play(760,100);
-delay(50);tone1.play(720,100);
-delay(75);tone1.play(680,100);
-delay(75);tone1.play(620,150);
-delay(150);tone1.play(650,200);
-delay(150);tone1.play(1020,80);
-delay(150);tone1.play(1020,80);
-delay(75);tone1.play(1020,80);
-delay(150);tone1.play(380,100);
-delay(150);tone1.play(500,100);
-delay(150);tone1.play(760,100);
-delay(50);tone1.play(720,100);
-delay(75);tone1.play(680,100);
-delay(75);tone1.play(620,150);
-delay(150);tone1.play(650,150);
-delay(150);tone1.play(380,100);
-delay(75);tone1.play(430,100);
-delay(75);tone1.play(500,100);
-delay(150);tone1.play(430,100);
-delay(75);tone1.play(500,100);
-delay(50);tone1.play(570,100);
-delay(210);tone1.play(585,100);
-delay(275);tone1.play(550,100);
-delay(210);tone1.play(500,100);
-delay(180);tone1.play(380,100);
-delay(150);tone1.play(500,100);
-delay(150);tone1.play(500,100);
-delay(75);tone1.play(500,100);
-delay(150);tone1.play(500,60);
-delay(75);tone1.play(500,80);
-delay(150);tone1.play(500,60);
-delay(175);tone1.play(500,80);
-delay(75);tone1.play(580,80);
-delay(175);tone1.play(660,80);
-delay(75);tone1.play(500,80);
-delay(150);tone1.play(430,80);
-delay(75);tone1.play(380,80);
-delay(300);tone1.play(500,60);
-delay(75);tone1.play(500,80);
-delay(150);tone1.play(500,60);
-delay(175);tone1.play(500,80);
-delay(75);tone1.play(580,80);
-delay(75);tone1.play(660,80);
-delay(225);tone1.play(870,80);
-delay(162);tone1.play(760,80);
-delay(300);tone1.play(500,60);
-delay(75);tone1.play(500,80);
-delay(150);tone1.play(500,60);
-delay(175);tone1.play(500,80);
-delay(75);tone1.play(580,80);
-delay(175);tone1.play(660,80);
-delay(75);tone1.play(500,80);
-delay(150);tone1.play(430,80);
-delay(75);tone1.play(380,80);
-delay(300);tone1.play(660,100);
-delay(75);tone1.play(660,100);
-delay(150);tone1.play(660,100);
-delay(150);tone1.play(510,100);
-delay(50);tone1.play(660,100);
-delay(150);tone1.play(770,100);
-delay(225);tone1.play(380,100);
-delay(100);
+beep -f 660 -l 100 -D 75
+beep -f 660 -l 100 -D 150
+beep -f 660 -l 100 -D 150
+beep -f 510 -l 100 -D 50
+beep -f 660 -l 100 -D 150
+beep -f 770 -l 100 -D 275
+beep -f 380 -l 100 -D 287
+beep -f 510 -l 100 -D 225
+beep -f 380 -l 100 -D 200
+beep -f 320 -l 100 -D 250
+beep -f 440 -l 100 -D 150
+beep -f 480 -l 80 -D 165
+beep -f 450 -l 100 -D 75
+beep -f 430 -l 100 -D 150
+beep -f 380 -l 100 -D 100
+beep -f 660 -l 80 -D 100
+beep -f 760 -l 50 -D 75
+beep -f 860 -l 100 -D 150
+beep -f 700 -l 80 -D 75
+beep -f 760 -l 50 -D 175
+beep -f 660 -l 80 -D 150
+beep -f 520 -l 80 -D 75
+beep -f 580 -l 80 -D 75
+beep -f 480 -l 80 -D 175
+beep -f 510 -l 100 -D 275
+beep -f 380 -l 100 -D 200
+beep -f 320 -l 100 -D 250
+beep -f 440 -l 100 -D 150
+beep -f 480 -l 80 -D 165
+beep -f 450 -l 100 -D 75
+beep -f 430 -l 100 -D 150
+beep -f 380 -l 100 -D 100
+beep -f 660 -l 80 -D 100
+beep -f 760 -l 50 -D 75
+beep -f 860 -l 100 -D 150
+beep -f 700 -l 80 -D 75
+beep -f 760 -l 50 -D 175
+beep -f 660 -l 80 -D 150
+beep -f 520 -l 80 -D 75
+beep -f 580 -l 80 -D 75
+beep -f 480 -l 80 -D 250
+beep -f 500 -l 100 -D 150
+beep -f 760 -l 100 -D 50
+beep -f 720 -l 100 -D 75
+beep -f 680 -l 100 -D 75
+beep -f 620 -l 150 -D 150
+beep -f 650 -l 150 -D 150
+beep -f 380 -l 100 -D 75
+beep -f 430 -l 100 -D 75
+beep -f 500 -l 100 -D 150
+beep -f 430 -l 100 -D 75
+beep -f 500 -l 100 -D 50
+beep -f 570 -l 100 -D 110
+beep -f 500 -l 100 -D 150
+beep -f 760 -l 100 -D 50
+beep -f 720 -l 100 -D 75
+beep -f 680 -l 100 -D 75
+beep -f 620 -l 150 -D 150
+beep -f 650 -l 200 -D 150
+beep -f 1020 -l 80 -D 150
+beep -f 1020 -l 80 -D 75
+beep -f 1020 -l 80 -D 150
+beep -f 380 -l 100 -D 150
+beep -f 500 -l 100 -D 150
+beep -f 760 -l 100 -D 50
+beep -f 720 -l 100 -D 75
+beep -f 680 -l 100 -D 75
+beep -f 620 -l 150 -D 150
+beep -f 650 -l 150 -D 150
+beep -f 380 -l 100 -D 75
+beep -f 430 -l 100 -D 75
+beep -f 500 -l 100 -D 150
+beep -f 430 -l 100 -D 75
+beep -f 500 -l 100 -D 50
+beep -f 570 -l 100 -D 110
+beep -f 500 -l 100 -D 150
+beep -f 760 -l 100 -D 50
+beep -f 720 -l 100 -D 75
+beep -f 680 -l 100 -D 75
+beep -f 620 -l 150 -D 150
+beep -f 650 -l 200 -D 150
+beep -f 1020 -l 80 -D 150
+beep -f 1020 -l 80 -D 75
+beep -f 1020 -l 80 -D 150
+beep -f 380 -l 100 -D 150
+beep -f 500 -l 100 -D 150
+beep -f 760 -l 100 -D 50
+beep -f 720 -l 100 -D 75
+beep -f 680 -l 100 -D 75
+beep -f 620 -l 150 -D 150
+beep -f 650 -l 150 -D 150
+beep -f 380 -l 100 -D 75
+beep -f 430 -l 100 -D 75
+beep -f 500 -l 100 -D 150
+beep -f 430 -l 100 -D 75
+beep -f 500 -l 100 -D 50
+beep -f 570 -l 100 -D 210
+beep -f 585 -l 100 -D 275
+beep -f 550 -l 100 -D 210
+beep -f 500 -l 100 -D 180
+beep -f 380 -l 100 -D 150
+beep -f 500 -l 100 -D 150
+beep -f 500 -l 100 -D 75
+beep -f 500 -l 100 -D 150
+beep -f 500 -l 60 -D 75
+beep -f 500 -l 80 -D 150
+beep -f 500 -l 60 -D 175
+beep -f 500 -l 80 -D 75
+beep -f 580 -l 80 -D 175
+beep -f 660 -l 80 -D 75
+beep -f 500 -l 80 -D 150
+beep -f 430 -l 80 -D 75
+beep -f 380 -l 80 -D 300
+beep -f 500 -l 60 -D 75
+beep -f 500 -l 80 -D 150
+beep -f 500 -l 60 -D 175
+beep -f 500 -l 80 -D 75
+beep -f 580 -l 80 -D 75
+beep -f 660 -l 80 -D 225
+beep -f 870 -l 80 -D 162
+beep -f 760 -l 80 -D 300
+beep -f 500 -l 60 -D 75
+beep -f 500 -l 80 -D 150
+beep -f 500 -l 60 -D 175
+beep -f 500 -l 80 -D 75
+beep -f 580 -l 80 -D 175
+beep -f 660 -l 80 -D 75
+beep -f 500 -l 80 -D 150
+beep -f 430 -l 80 -D 75
+beep -f 380 -l 80 -D 300
+beep -f 660 -l 100 -D 75
+beep -f 660 -l 100 -D 150
+beep -f 660 -l 100 -D 150
+beep -f 510 -l 100 -D 50
+beep -f 660 -l 100 -D 150
+beep -f 770 -l 100 -D 225
+beep -f 380 -l 100 -D 100
