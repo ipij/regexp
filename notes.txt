@@ -1,0 +1,27 @@
+Heja,
+
+Teraz kilka sprostowań
+
+Głównie na wykladzie korzystałem z kilku narzędzi - grep, egrep oraz pcregrep.
+Grep jest podstawową komendą do wyrażeń regularnych, lecz ma kilka wad:
+-jego silnik wyrażeń do nowych nie należy
+-co za tym idzie, nie jest szybki
+-i nie ma wszystkich ficzerów co inne silniki
+-niektóre metaznaki trzeba escapować, np. \+, \* \?
+
+Przydaje się więc do prostych wyszukiwać typu słowo/zbiór słów
+
+a co robi egrep? egrep to jest *extend* grep. Zawiera już kilka fajniejszych rzeczy (leniwość, odwołania wsteczne etc.) ale to jednak nie jest wszystko co wprowadził język PERL.
+
+dlatego wymyślono pcregrep który ma więcej ficzerów i gdybym z niego korzystał to kilka przykkładów by działało na wykładzie i bym nie zrobił takowego wstydu :)
+
+I kilka wyjaśniej co źle sam rozumiałem:
+grupy (?<= oraz (?= mają jeden kruczek - nie mogą być w środku. grupa (?<= musi byc na poczatku wyrazenia a grupa (?= na końcu .
+To samo tyczy się (?! oraz (?<! tylko zamiast wymagac to neguje (tak wiec przyklad z zlym tagiem HTML by nigdy nie działał. Więc niestety się nie przygotowałem odpowiednio, ale chyba mi wybaczycie, prawda? ;P
+
+Wszystkie (prócz rekuresyjnych) ficzery które podałem są powszechnie stosowane w prawie każdym współczesnym języku - oczywiście dalej w wyrażeniach regularnych przoduje PERL - tylko tam zamiast pomagać w wyszukiwaniu to stał się częścią składni języka np. są grupy warunkowe które sprawdzają wartość i ustalają podane w grupie wyrażenie.
+
+Na wykładzie zapomniałem dodać o wyrażeniach wielolinijkowych (nie mylić z wyrażeniem działającym na całym tekście bez linijek - od tego są flagi programu/funkcji a nie samo wyrazenie) jest to tak zwany tryb VERBOSE który ignoruje białe znaki (spacja to \s) i pozwala na stawianie komentarzy na koncu linii. przyklad jest podany w forum/jimmy.py . Ale oby nigdy nie byliście zmuszeni do pisania takiego "czaru" :-)
+
+I to chyba na tyle.  
+
